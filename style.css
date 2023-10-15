@@ -1,6 +1,8 @@
-*{
-    margin: 0;
+body{
+    height: 89vh;
 }
+
+/* Header */
 
 header{
     display: flex;
@@ -70,3 +72,66 @@ header a{
     height: 5vh;
     padding-inline: 0.8rem;
 }
+
+ /* Header -- */
+
+/* Main */
+
+main{
+    display: flex;
+    height: 100%;
+}
+
+#main_left{
+    width: 55%;
+    height: 100%;
+    background-image: url(/imgs/reg_log_pic.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}   
+
+
+#main_rigth{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#main_form{
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    height: 100%;
+    justify-content: center;
+}
+
+#main_form input{
+    border-radius: 20px;
+    border: 1px solid #06BED6;
+    background-color: #F2F2F2;
+    width: 100%;
+    height: 6%;
+}
+
+#main_form button{
+    border-radius: 20px;
+    border: none;
+    background-color: #06BED6;
+    color: white;
+    width: 100%;
+    height: 8%;
+}
+
+#main_form p2{
+    align-self: center;
+}
+
+
+#main_form input{
+    margin-bottom: 2rem;
+}
+
+
+/* Main -- */
