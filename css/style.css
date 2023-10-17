@@ -10,7 +10,7 @@ main{
 #main_left{
     width: 55%;
     height: 100%;
-    background-image: url(/imgs/reg_log_pic.jpg);
+    background-image: url(../imgs/reg_log_pic.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }   
@@ -36,7 +36,7 @@ main{
 
 }
 
-#main_form input{
+.inputs{
     border-radius: 20px;
     border: 1px solid #06BED6;
     background-color: #F2F2F2;
@@ -45,7 +45,7 @@ main{
     padding-left: 0.7rem;
 }
 
-#main_form button{
+#submit{
     border-radius: 20px;
     border: none;
     background-color: #06BED6;
@@ -54,6 +54,7 @@ main{
     height: 10%;
     cursor: pointer;
 }
+
 
 #main_form p2{
     padding-top: 0.5rem;
